@@ -1,0 +1,27 @@
+valor = int(input("Digite um valor em centavos:"))
+M1 = 1
+M2 = 5
+M3 = 10
+M4 = 25
+M5 = 50
+M6 = 100
+
+quantm6 = valor // M6
+valor = valor % M6
+quantm5 = valor// M5
+valor = valor%M5
+quantm4 = valor//M4
+valor = valor%M4
+quantm3 = valor//M3
+valor = valor%M3
+quantm2 = valor//M2
+valor = valor%M2
+quantm1 = valor//M1
+valor = valor%M1
+
+print("A quantidade de moedas de 1 real é: ", quantm6)
+print("A quantidade de moedas de 50 centavos é: ", quantm5)
+print("A quantidade de moedas de 25 centavos é: ", quantm4)
+print("A quantidade de moedas de 10 centavos é: ", quantm3)
+print("A quantidade de moedas de 5 centavos é: ", quantm2)
+print("A quantidade de moedas de 1 centavo é: ", quantm1)
